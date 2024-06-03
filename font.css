@@ -1,0 +1,42 @@
+* {-webkit-font-smoothing: antialiased!important;}
+
+/** Thin */
+@font-face {
+    font-family: "Euclid";
+    font-weight: 200;
+    src: url('../fonts/ecbLight.ttf')
+}
+
+/** Regular */
+@font-face {
+    font-family: "Euclid";
+    font-weight: 400;
+    src: url('../fonts/ecbRegular.ttf')
+}
+
+/** Medium */
+@font-face {
+    font-family: "Euclid";
+    font-weight: 500;
+    src: url('../fonts/ecbMedium.ttf')
+}
+
+/** Semi Bold */
+@font-face {
+    font-family: "Euclid";
+    font-weight: 600;
+    src: url('../fonts/ecbSemiBold.ttf')
+}
+
+/** Bold */ 
+@font-face {
+    font-family: "Euclid";
+    font-weight: 700;
+    src: url('../fonts/ecbBold.ttf')
+}
+
+
+body, input{
+    font-family: "Euclid"!important;
+    box-sizing: border-box;
+}

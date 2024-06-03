@@ -1,0 +1,299 @@
+#navbar{
+    background-color: #CE5A5A;
+
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+
+    transition: all ease-in-out 200ms;
+}
+
+body{
+    width: 100vw;
+    margin: 0;
+    background-color: var(--primary-pink);
+
+    ::-webkit-scrollbar {
+        height: 8px;
+      }
+      
+    ::-webkit-scrollbar-track{
+        background: #f1f1f1;
+        border-radius: 25px;
+    }
+      
+    ::-webkit-scrollbar-thumb{
+        background: var(--shade-pink);
+        border-radius: 15px;
+    }
+}
+
+.bg{
+    margin-top: 8.5vh;
+}
+
+#carrousel-container{
+    padding: 0 3vw;
+}
+
+#carrousel-slides{
+    display: flex;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#person{
+    padding-bottom: 2vh;
+    border-bottom: solid 1px black;
+}
+
+#person img{
+    width: 4.5vmax;
+    aspect-ratio: 2/2;
+}
+
+#person #people{
+    align-content: center;
+    transform: translateX(-4.5vw);
+}
+
+.slide{
+    flex: 1 0 100%;
+    width: 100%;
+    height: 600px;
+    background-color:var(--primary-pink) ;
+}
+
+.slide-content-card{
+    height: 100%;
+}
+
+.card{
+    width: 30vw;
+    border-radius: 20px;
+    padding: 4vh 3vw;
+}
+
+.card h3{
+    text-wrap: wrap;
+}
+
+#navbar{
+    padding: 2vh 1vw;
+    border-radius: 0 0 15px 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#navbar a{
+    font-size: 1.3rem;
+    margin: 0 1vw;
+}
+
+.button h2{
+    background-color: var(--primary-pink);
+    margin: 0 1vw;
+    padding: 0.5vh 1vw;
+}
+
+.slide-img{
+    overflow-x: scroll;
+    &>img{
+        object-fit: cover;
+        aspect-ratio: 16/9;
+        border-radius: 10px;
+        height: 12vh;
+    }
+}
+
+#promo-card{
+    height: fit-content;
+    width: 40vw;
+    padding: 5vh 13vmin;
+    border-radius: 20px;
+    margin-bottom: 15vh;
+
+    border: 3px solid var(--shade-pink);
+}
+
+ul{
+    transform: translateY(-1.5vh);
+}
+
+h5{
+    font-size: 1vmax;
+}
+
+h4{
+    font-size: 1.2vmax;
+}
+
+h3{
+    font-size: 1.4vmax;
+}
+
+h2{
+    font-size: 1.6vmax;
+}
+
+h1{
+    font-size: 1.8vmax;
+}
+
+.border-bottom-pink{
+    padding-bottom: 3vh;
+    border-bottom: 2px solid var(--shade-pink);
+}
+
+#footer{
+    padding: 3vh 4vw;
+    background-color: var(--shade-pink);
+}
+
+button{
+    border: none;
+    background-color: var(--shade-pink);
+    padding: 1vh 1.5vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#product-bar .box:hover{
+    background-color: var(--shade-pink);
+}
+
+#product-bar img{
+    padding: 0.75vh 0.5vw;
+    transition: background-color ease-in-out 100ms;
+}
+
+.product-img{
+    aspect-ratio: 2/2;
+    margin: 2vh auto;
+    
+}
+
+.product-img {
+    max-width: 100%;
+}
+
+#product-content .item{
+    margin: 0 3vw 4vh 0;
+}
+
+#product-content h5{
+    margin: 2vh 1vw;
+}
+
+.chef{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+#product-bar .active{
+    background-color: var(--shade-pink);
+}
+
+#inside{
+    font-size: 1.2rem;
+    padding: 2vh 2vw;
+}
+
+#about{
+    border-bottom: solid;
+    border-color: #CE5A5A;
+    margin: 2vh 2vw;
+    padding-bottom: 5vh;
+}
+
+#about h2{
+    text-align: center;
+}
+
+#pros h1{
+    margin: 0 2vw;
+}
+
+.cen{
+    padding: 10vw 10vw;
+}
+
+#card .image{
+    height: 150px;
+    width: 150px;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#container{
+    display: flex;
+    max-width: 40%;
+}
+
+#container #card{
+    display: flex;
+    flex: 0 0 100%;
+    flex-direction: column;
+}
+
+#rating{
+    color: yellow;
+    -webkit-text-stroke: 0.7px black;
+}
+
+.nav{
+    transform: translateY(-15vh);
+    margin: 0 auto;
+}
+
+#menu-icon{
+    font-size: 1.5rem;
+    color: var(--primary-pink);
+    margin-right: 1rem;
+    display: none;
+}
+
+#menu-icon{
+    background-color: #CE5A5A;
+}
+
+#ss-2{
+    padding-top: 3vh;
+}
+
+#ss-2 a{
+    margin: 3vh 0;
+}
+
+@media only screen and (max-width: 768px) {
+    #navbar #ss{
+        display: none;
+    }
+
+    #menu-icon{
+        display:flex;
+    }
+
+    #ss-2{
+        display: flex;
+    }
+
+    .bg{
+        width: 100vw;
+        height: 30vh;
+    }
+
+
+}
