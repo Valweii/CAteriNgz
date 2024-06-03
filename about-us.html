@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAteriNgz</title>
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/color.css">
+</head>
+<body onload="showCategory('chicken')">
+    <div class="flex flow-column gap gap-4">
+        <div id="navbar" class="flex flow-column">
+            <div class="flex space-between align-center">
+                <h2 class="text white margin ml-4">CAteriNgz</h2>
+                <button onclick="openNav()" id="menu-icon">&#9776;</button>
+                <div id="ss" class="flex gap gap-2">
+                    <a href="main.html" class="text white">Home</a>
+                    <a href="product.html" class="text white">Products</a>
+                    <a href="testimonial.html" class="text white">Testimonial</a>
+                    <a href="#/" class="text white underline">About Us</a>
+                </div>
+                <div id="ss" class="button">
+                    <h2 class="text pink border rad-1">Register</h2>
+                </div>
+            </div>
+            <div id="ss-2" class="flex flow-column align-center justify-center">
+                <a href="main.html" class="text white">Home</a>
+                <a href="product.html" class="text white">Products</a>
+                <a href="testimonial.html" class="text white">Testimonial</a>
+                <a href="#/" class="text white underline">About Us</a>
+            </div>
+        </div>
+
+        <div id="about" class="flex flow-column gap gap-4">
+            <div class="text pink">
+                <h2>About Us</h2>
+                <h2>What is CAteriNgz?</h2>
+            </div>
+
+            <div class="bg white border rad-1 flex wrap margin ml-4 mr-4">
+                <p id="inside">CAteriNgz is a homemade culinary that has become a go-to for great food at events in Jakarta, Bandung, and Malang. Our journey began in a small kitchen, and now we're known for creating delicious experiences at all kinds of gatherings. We're all about using the best ingredients. We get our stuff locally and use seasonal items to keep things fresh and sustainable. Our chefs work with local farmers and artisans to bring out the best flavors in every dish.</p>
+            </div>
+        </div>
+
+        <div id="pros" class="flex flow-column gap gap-10 margin mr-4 ml-4 mt-4">
+            <div class="flex space-between">
+                <img class="w50 border rad-1" src="/img/about-1.jpg" alt="">
+                <h1 class="cen flex align-center text pink">The Best Chef</h1>
+            </div>
+            <div class="flex space-between">
+                <h1 class="cen flex align-center text pink">Top and Fresh Ingridients</h1>
+                <img class="w50 border rad-1" src="/img/about-2.jpg" alt="">
+            </div>
+            <div class="flex space-between">
+                <img class="w50 border rad-1" src="/img/about-3.jpg" alt="">
+                <h1 class="cen flex align-center text pink">Guaranteed Satisfactory</h1>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div class="flex flow-column gap gap-4 text white">
+                <h2>CAteriNgz</h2>
+                <div class="flex space-between">
+                    <div class="flex flow-column gap gap-1">
+                        <h3>Contact Us</h3>
+                        <h3>cateringz@gmail.com</h3>
+                        <h3>+62-888-8888-888</h3>
+                    </div>
+                    <div class="flex flow-column gap gap-1">
+                        <h3>CAteriNgz</h3>
+                        <h3>Copyright ©2024 All right reserved</h3>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

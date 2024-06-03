@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAteriNgz</title>
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/color.css">
+</head>
+<body>
+    <div class="flex flow-column gap gap-4">
+        <div id="navbar" class="flex flow-column">
+            <div class="flex space-between align-center">
+                <h2 class="text white margin ml-4">CAteriNgz</h2>
+                <button onclick="openNav()" id="menu-icon">&#9776;</button>
+                <div id="ss" class="flex gap gap-2">
+                    <a href="main.html" class="text white">Home</a>
+                    <a href="product.html" class="text white">Products</a>
+                    <a href="testimonial.html" class="text white">Testimonial</a>
+                    <a href="#/" class="text white underline">About Us</a>
+                </div>
+                <div id="ss" class="button">
+                    <h2 class="text pink border rad-1">Register</h2>
+                </div>
+            </div>
+            <div id="ss-2" class="flex flow-column align-center justify-center">
+                <a href="main.html" class="text white">Home</a>
+                <a href="product.html" class="text white">Products</a>
+                <a href="testimonial.html" class="text white">Testimonial</a>
+                <a href="#/" class="text white underline">About Us</a>
+            </div>
+        </div>
+
+        <div id="carrousel-slides">
+            <div class="slide">
+                <div class="slide-content-card flex align-center justify-center">
+                    <div class="card flow-column bg white">
+                        <div id="person" class="flex gap gap-4">
+                            <div class="w30 flex align-center">
+                                <img class="border rad-50 cover" src="/img/people-1.png" alt="">
+                            </div>
+                            <div id="people">
+                                <h4>Kim Chae Won</h4>
+                            </div>
+                        </div>
+                        <div id="rating">★ ★ ★ ★ ★</div>
+
+                        <p>"As a corporate executive with little time to cook, CAteriNgz has been a lifesaver. The meal plans are well thought out, offering balanced and tasty options. The service is reliable, and the food always arrives fresh. It's been a fantastic experience."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-content-card flex align-center justify-center">
+                    <div class="card flow-column bg white">
+                        <div id="person" class="flex gap gap-4">
+                            <div class="w30 flex align-center">
+                                <img class="border w50 rad-50 cover" src="/img/people-2.jpeg" alt="">
+                            </div>
+                            <div id="people">
+                                <h4>Chae Chae</h4>
+                            </div>
+                        </div>
+                        <div id="rating">★ ★ ★ ★ ★</div>
+
+                        <p>"I subscribed to CAteriNgz for a month, and it has been amazing. The meals are tailored to my dietary needs, and I appreciate the focus on healthy ingredients. The convenience of having meals delivered daily has made a huge difference in my routine."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-content-card flex align-center justify-center">
+                    <div class="card flow-column bg white">
+                        <div id="person" class="flex gap gap-4">
+                            <div class="w30 flex align-center">
+                                <img class="border w50 rad-50 cover" src="/img/people-3.png" alt="">
+                            </div>
+                            <div id="people">
+                                <h4>Kim Michelle</h4>
+                            </div>
+                        </div>
+                        <div id="rating">★ ★ ★ ★ ★</div>
+
+                        <p>"Working from home, I found myself struggling to prepare healthy meals. CAteriNgz has solved this problem. The meals are diverse, delicious, and perfectly portioned. The daily delivery is prompt, and I couldn't be happier with the service."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content-card flex align-center justify-center">
+                    <div class="card flow-column bg white">
+                        <div id="person" class="flex gap gap-4">
+                            <div class="w30 flex align-center">
+                                <img class="border w50 rad-50 cover" src="/img/people-4.jpeg" alt="">
+                            </div>
+                            <div id="people">
+                                <h4>Pupu</h4>
+                            </div>
+                        </div>
+                        <div id="rating">★ ★ ★ ★ ★</div>
+
+                        <p>"As a busy parent, CAteriNgz has been incredibly helpful. The daily meal delivery ensures my family eats well without the stress of cooking every day. The kids love the food, and I love the convenience and quality. It's a win-win."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content-card flex align-center justify-center">
+                    <div class="card flow-column bg white">
+                        <div id="person" class="flex gap gap-4">
+                            <div class="w30 flex align-center">
+                                <img class="border w50 rad-50 cover" src="/img/people-5.jpeg" alt="">
+                            </div>
+                            <div id="people">
+                                <h4>Ssamachi</h4>
+                            </div>
+                        </div>
+                        <div id="rating">★ ★ ★ ★ ★</div>
+
+                        <p>"CAteriNgz has been a game-changer for my hectic schedule. The daily meals are not only convenient but also delicious and nutritious. I love the variety and quality of the food. Highly recommend for anyone needing a reliable meal service."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav flex space-between align-center">
+            <div class="flex gap gap-2">
+                <button id="slide-arrow-prev" class="text white">&#10094</button>
+                <button id="slide-arrow-next" class="text white">&#10095</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="flex flow-column gap gap-4 text white">
+            <h2>CAteriNgz</h2>
+            <div class="flex space-between">
+                <div class="flex flow-column gap gap-1">
+                    <h3>Contact Us</h3>
+                    <h3>cateringz@gmail.com</h3>
+                    <h3>+62-888-8888-888</h3>
+                </div>
+                <div class="flex flow-column gap gap-1">
+                    <h3>CAteriNgz</h3>
+                    <h3>Copyright ©2024 All right reserved</h3>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

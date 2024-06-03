@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAteriNgz</title>
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/color.css">
+</head>
+<body onload="showCategory('chicken')">
+    <div class="flex flow-column gap gap-4">
+        <div id="navbar" class="flex flow-column">
+            <div class="flex space-between align-center">
+                <h2 class="text white margin ml-4">CAteriNgz</h2>
+                <button onclick="openNav()" id="menu-icon">&#9776;</button>
+                <div id="ss" class="flex gap gap-2">
+                    <a href="main.html" class="text white">Home</a>
+                    <a href="#/" class="text white underline">Products</a>
+                    <a href="testimonial.html" class="text white">Testimonial</a>
+                    <a href="about-us.html" class="text white">About Us</a>
+                </div>
+                <div id="ss" class="button">
+                    <h2 class="text pink border rad-1">Register</h2>
+                </div>
+            </div>
+            <div id="ss-2" class="flex flow-column align-center justify-center">
+                <a href="main.html" class="text white">Home</a>
+                <a href="#/" class="text white underline">Products</a>
+                <a href="testimonial.html" class="text white">Testimonial</a>
+                <a href="about-us.html" class="text white">About Us</a>
+            </div>
+        </div>
+
+        <div id="content" class="flex flow-column gap gap-4 margin ml-4">
+            <div id="product-bar" class="flex gap gap-4">
+                <div class="nav-btn box bg white border border border-solid border-w8 border-pink border rad-1 active">
+                    <img src="/img/icon-1.png" class="cover w2 border rad-1" id="chicken-sect" onclick="showCategory('chicken')" alt="">
+                </div>
+                <div class="nav-btn box bg white border border border-solid border-w8 border-pink border rad-1">
+                    <img src="/img/icon-2.png" class="cover w2 border rad-1" id="noodles-sect" onclick="showCategory('noodles')" alt="">
+                </div>
+                <div class="nav-btn box bg white border border border-solid border-w8 border-pink border rad-1">
+                    <img src="/img/icon-3.png" class="cover w2 border rad-1" id="vegies-sect" onclick="showCategory('veggies')" alt="">
+                </div>
+                <div class="nav-btn box bg white border border border-solid border-w8 border-pink border rad-1">
+                    <img src="/img/icon-4.png" class="cover w2 border rad-1" id="dessert-sect" onclick="showCategory('dessert')" alt="">
+                </div>
+            </div>
+
+            <div id="products" class="flex gap gap-4">
+                <div id="product-content" class="flex wrap">
+                    <!-- Product items will be inserted here dynamically -->
+                </div>
+            </div>
+
+        </div>
+        
+        <div id="footer">
+            <div class="flex flow-column gap gap-4 text white">
+                <h2>CAteriNgz</h2>
+                <div class="flex space-between">
+                    <div class="flex flow-column gap gap-1">
+                        <h3>Contact Us</h3>
+                        <h3>cateringz@gmail.com</h3>
+                        <h3>+62-888-8888-888</h3>
+                    </div>
+                    <div class="flex flow-column gap gap-1">
+                        <h3>CAteriNgz</h3>
+                        <h3>Copyright ©2024 All right reserved</h3>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
